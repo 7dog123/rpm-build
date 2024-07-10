@@ -22,4 +22,4 @@ jobs:
       - name: Build binutils rpm
         run: |
           sudo mkdir /usr/src/SOURCES
-          rmpbuild -ba "binutils2.42.spec"
+          rpmbuild -ba "binutils2.42.spec"
