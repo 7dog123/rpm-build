@@ -22,4 +22,7 @@ jobs:
       - name: Build binutils rpm
         run: |
           sudo mkdir /usr/src/SOURCES
+          cd /usr/src/SOURCES
+          sudo wget -q https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.gz
+          cd $GITHUB_WORKSPACE
           rpmbuild -ba "binutils2.42.spec"
