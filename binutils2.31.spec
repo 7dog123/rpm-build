@@ -3,11 +3,11 @@
 
 Summary: GNU binutils for m68k-aout cross development
 Name: binutils
-Version: 2.42
+Version: 2.31
 Release: 1
 License: GPL
 Group: Development/Tools
-Source0: https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.gz
+Source0: https://ftp.gnu.org/gnu/binutils/binutils-2.31.tar.gz
 URL: https://www.gnu.org/software/binutils/
 BuildRoot: %{_topdir}/%{name}-%{version}-root
 
