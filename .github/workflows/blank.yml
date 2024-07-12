@@ -23,6 +23,6 @@ jobs:
         run: |
           sudo mkdir /usr/src/SOURCES
           cd /usr/src/SOURCES
-          sudo wget -q https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.gz
+          sudo wget -q https://ftp.gnu.org/gnu/binutils/binutils-2.31.tar.gz
           cd $GITHUB_WORKSPACE
-          sudo rpmbuild -ba "binutils2.42.spec"
+          sudo rpmbuild -ba "binutils2.31.spec"
